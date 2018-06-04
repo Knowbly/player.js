@@ -1,6 +1,6 @@
 import './lib/compatibility-check';
 
-import 'es6-collections';
+import WeakMap from 'core-js/library/es6/weak-map';
 import Promise from 'native-promise-only';
 
 import { storeCallback, getCallbacks, removeCallback, swapCallbacks } from './lib/callbacks';
