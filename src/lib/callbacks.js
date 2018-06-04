@@ -1,3 +1,5 @@
+import WeakMap from 'core-js/library/es6/weak-map';
+
 /**
  * @module lib/callbacks
  */
